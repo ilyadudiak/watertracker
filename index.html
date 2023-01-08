@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>WaterTracker</title>
+</head>
+
+<body>
+    <div class="sex"> <button onclick='chooseSex("male")'> <span>Male</span></button>
+        <button onclick='chooseSex("female")'><span>Female</span></button>
+    </div>
+
+
+    <h1 class="title">Water Tracker</h1>
+    <div class="water">
+        <div class="water__item"></div>
+    </div>
+
+    <div class="bottom">
+        <p class="counter"></p>
+        <p>ml</p>
+
+    </div>
+    <button class="addWater" onclick="addWater()"><span>Drink</span></button>
+    <p class="reply"></p>
+    <div class="water__types">
+        <button class="water__type water__type1" value="i1" autofocus><img src="cuppng.png" alt=""></button>
+        <button class="water__type water__type2" value="i2"><img src="bottle1.png" alt=""></button>
+        <button class="water__type water__type3" value="i3"><img src="bottle2.png" alt=""></button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
